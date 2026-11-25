@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import { projects, groupName, img, captions } from '../../data/site.js';
+export function getStaticPaths(){ return projects.map((p, i) => ({ params: { slug: p.slug }, props: { p, prev: projects[i-1], next: projects[i+1] } })); }
+const { p, prev, next } = Astro.props;
+const mode = p.mode || 'auto';
+// Layout per project (p.mode):
+//  auto     - photo sets and runs of 7+ photos are sliders, short runs are rows
+//  rows     - everything as justified rows of photos
+//  big      - rows with large photos
+//  captions - two columns of large photos, each with its title and text
+//  grid12   - the original 12-column grid: photos and text cells with fixed widths
+const secs = [];
+let run = null;
+const flush = () => { if (!run) return;
+  if (mode === 'captions' || mode === 'pages') secs.push({ t: 'masonry', ids: run, pages: mode === 'pages' });
+  else if (mode === 'rows' || mode === 'big' || run.length <= 6) secs.push({ t: 'rows', ids: run });
+  else secs.push({ t: 'slider', ids: run });
+  run = null; };
+if (mode !== 'grid12') {
+  for (const b of p.blocks) {
+    if (b.t === 'img') { (run ||= []).push(b.id); continue; }
+    flush();
+    if (b.t === 'set') secs.push(mode === 'rows' || mode === 'big' ? { t: 'rows', ids: b.ids } : { t: 'slider', ids: b.ids, desc: b.desc, side: b.side, auto: b.auto, wide: b.wide });
+    else secs.push(b);
+  }
+  flush();
+}
+const plain = p.desc.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 155);
+const A = (id, eager) => { const m = img(id); return { id, m, ar: (m.w / m.h).toFixed(3), eager, cap: captions[id] }; };
+const W = { '1-1': 'w12', '1-2': 'w6', '1-3': 'w4', '2-3': 'w8', '1-4': 'w3', '3-4': 'w9' };
+let firstMedia = true;
+---
+<Base title={p.title} description={plain || undefined} image={`/img/t/${p.thumb}.jpg`}>
+  <div class="phead">
+    <div>
+      <h1>{p.title}</h1>
+      <p class="meta"><a href="/">Home</a>{p.group && <> / <a href={`/${p.group}/`}>{groupName[p.group]}</a></>} / {p.title}</p>
+    </div>
+    <div set:html={p.desc} />
+  </div>
+  {mode === 'grid12' && (
+    <div class={`og${p.flex ? ' flexg' : ''}`}>
+      {p.blocks.map((b, k) => {
+        const cls = `oc ${W[b.w] || 'w12'}`;
+        if (b.t === 'img') { const i = A(b.id, k < 3); return <div class={cls}><a href={`/img/${i.id}.jpg`} data-lb><img src={`/img/t/${i.id}.jpg`} srcset={`/img/t/${i.id}.jpg ${Math.min(900, i.m.w)}w, /img/${i.id}.jpg ${Math.min(2200, i.m.w)}w`} sizes={b.w === '1-1' ? '(max-width:760px) 100vw, 1130px' : b.w === '2-3' ? '(max-width:760px) 100vw, 760px' : '(max-width:760px) 100vw, 570px'} width={i.m.w} height={i.m.h} alt={`${p.title} - photo`} loading={i.eager ? 'eager' : 'lazy'}></a></div>; }
+        if (b.t === 'quote') return <div class={cls}><blockquote class="oq">{b.text.split('\n').filter(Boolean).map(l => <span>{l}<br></span>)}</blockquote></div>;
+        return <div class={`${cls} ot`} set:html={b.html} />;
+      })}
+    </div>
+  )}
+  {secs.map(s => {
+    const eager = firstMedia && ['rows','slider','masonry'].includes(s.t); if (eager) firstMedia = false;
+    if (s.t === 'head') return <h2 class="shead">{s.text}</h2>;
+    if (s.t === 'slider') { const items = s.ids.map((id, k) => A(id, eager && k < 2)); return (
+      <section class={`story${s.desc ? ' has-desc' : ''}${s.side === 'right' ? ' right' : ''}`}>
+        {s.desc && <div class="sdesc" set:html={s.desc} />}
+        <div class={`car${s.wide ? ' wide' : ''}`} data-auto={s.auto ? '4500' : undefined}>
+          <div class="track">
+            {items.map(i => <a href={`/img/${i.id}.jpg`} data-lb data-title={i.cap?.title || undefined} style={`--ar:${i.ar}`}><img src={`/img/t/${i.id}.jpg`} srcset={`/img/t/${i.id}.jpg ${Math.min(900, i.m.w)}w, /img/${i.id}.jpg ${Math.min(2200, i.m.w)}w`} sizes={s.wide ? "(max-width:700px) 92vw, 1130px" : "(max-width:700px) 92vw, 1200px"} width={i.m.w} height={i.m.h} alt={i.cap?.title || `${p.title} - photo`} loading={i.eager ? 'eager' : 'lazy'}></a>)}
+          </div>
+          {items.length > 1 && <div class="cbar"><button class="cp" aria-label="Previous photo">&larr;</button><span class="cc">1 / {items.length}</span><button class="cn" aria-label="Next photo">&rarr;</button></div>}
+        </div>
+      </section>); }
+    if (s.t === 'rows') { const items = s.ids.map((id, k) => A(id, eager && k < 4)); return (
+      <section class="gal">
+        <div class={`row${mode === 'big' ? ' big' : ''}${items.length === 1 ? ' one' : items.length <= 3 ? ' few' : ''}`}>
+          {items.map(i => <a href={`/img/${i.id}.jpg`} data-lb style={`--ar:${i.ar}`}><img src={`/img/t/${i.id}.jpg`} srcset={mode === 'big' ? `/img/t/${i.id}.jpg ${Math.min(900, i.m.w)}w, /img/${i.id}.jpg ${Math.min(2200, i.m.w)}w` : undefined} sizes={mode === 'big' ? '(max-width:700px) 100vw, 1130px' : undefined} width={i.m.w} height={i.m.h} alt={`${p.title} - photo`} loading={i.eager ? 'eager' : 'lazy'}></a>)}
+        </div>
+      </section>); }
+    if (s.t === 'masonry') { const items = s.ids.map((id, k) => A(id, eager && k < 2)); return (
+      <section class={`mas${s.pages ? ' pages' : ''}`}>
+        {items.map(i => <figure>
+          <a href={`/img/${i.id}.jpg`} data-lb data-title={i.cap?.title || undefined} data-text={i.cap?.text || undefined}><img src={`/img/t/${i.id}.jpg`} srcset={`/img/t/${i.id}.jpg ${Math.min(900, i.m.w)}w, /img/${i.id}.jpg ${Math.min(2200, i.m.w)}w`} sizes="(max-width:700px) 100vw, 50vw" width={i.m.w} height={i.m.h} alt={i.cap?.title || `${p.title} - photo`} loading={s.pages && i.eager ? 'eager' : 'lazy'}></a>
+          {i.cap && (i.cap.title || i.cap.text) && <figcaption>{i.cap.title && <h4>{i.cap.title}</h4>}{i.cap.text && <p>{i.cap.text.split('\n').map(l => <>{l}<br></>)}</p>}</figcaption>}
+        </figure>)}
+        {!s.pages && <script is:inline>(()=>{const m=document.currentScript.parentNode,f=[...m.querySelectorAll('figure')];for(let i=f.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[f[i],f[j]]=[f[j],f[i]]}f.forEach(x=>m.insertBefore(x,document.currentScript))})();</script>}
+      </section>); }
+    if (s.t === 'quote') return <blockquote class="quote">{s.text.split('\n').filter(Boolean).map(l => <span>{l}<br></span>)}{s.author && <cite>{s.author}</cite>}</blockquote>;
+    if (s.t === 'text') return <div class="text" set:html={s.html} />;
+    if (s.t === 'yt') return <div class="text"><button class="yt" data-id={s.id} aria-label={`Play: ${s.title}`}><img src={`https://i.ytimg.com/vi/${s.id}/maxresdefault.jpg`} alt="" loading="lazy"></button></div>;
+    if (s.t === 'link') return <p class="text" style="text-align:center"><a class="btn" href={s.url} rel="noopener">{s.label} &rarr;</a></p>;
+  })}
+  <nav class="pnav">
+    <span>{prev && <a href={`/portfolio/${prev.slug}/`}>&larr; {prev.title}</a>}</span>
+    <span>{next && <a href={`/portfolio/${next.slug}/`}>{next.title} &rarr;</a>}</span>
+  </nav>
+  <script is:inline src="/lightbox.js?v=6" defer></script>
+  <script is:inline src="/gallery.js?v=6" defer></script>
+</Base>

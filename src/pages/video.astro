@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+const list = 'PL5LxqibYVIoMBu-BTUviPjFRpNMf48jK9';
+const vids = [
+  ['uHx_c73z_n8', 'Everything that happens outside...'],
+  ['ll-48xPgc34', 'Exhibition opening accompanying video'],
+  ['ZtGoewDeWB0', 'Sound band rehearsal video'],
+  ['c1vzfhC-ox8', 'Board game Guards of Atlantis 2 video presentation'],
+  ['WbuJq6S2vhs', 'Board game WarpGate video presentation'],
+  ['JPaT8qz3PLA', 'The Endless Search'],
+];
+---
+<Base title="Video" description="Video portfolio of smarts.studio.">
+  <h1>Video</h1>
+  <div class="vgrid" style="margin-top:30px">
+    {vids.map(([id, t]) => <figure><button class="yt" data-id={id} data-list={list} aria-label={`Play: ${t}`}><img src={`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`} alt="" loading="lazy"></button><figcaption>{t}</figcaption></figure>)}
+  </div>
+  <p style="text-align:center;margin-top:40px"><a class="btn" href={`https://www.youtube.com/playlist?list=${list}`} rel="noopener">Whole playlist on YouTube &rarr;</a></p>
+  <script is:inline src="/gallery.js?v=6" defer></script>
+</Base>

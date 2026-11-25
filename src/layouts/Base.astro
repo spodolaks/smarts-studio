@@ -1,0 +1,42 @@
+---
+const { title, description = 'smarts.studio - creative photo and video studio of Maria Pranka and Sergejs Podolaks, Riga.' } = Astro.props;
+const nav = [['Home','/'],['Series','/series/'],['Collaboration projects','/collaboration-projects/'],['Specials','/specials/'],['Video','/video/'],['Our Story','/portfolio/our-story/'],['About Us','/contacts/']];
+const path = Astro.url.pathname;
+const v = '10';
+const full = title ? `${title} - smarts.studio` : 'smarts.studio - creative photo and video studio';
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{full}</title>
+<meta name="description" content={description}>
+<link rel="canonical" href={new URL(path, Astro.site)}>
+<meta property="og:title" content={full}>
+<meta property="og:description" content={description}>
+{Astro.props.image && <meta property="og:image" content={new URL(Astro.props.image, Astro.site)}>}
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Unica+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href={`/site.css?v=${v}`}>
+</head>
+<body>
+<header class="top wrap">
+  <a class="logo" href="/" aria-label="smarts.studio home"><img src="/logo.png" width="987" height="196" alt="smArts studio"></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+  <nav id="nav">
+    {nav.map(([t,h]) => <a href={h} aria-current={path===h ? 'page' : undefined}>{t}</a>)}
+  </nav>
+</header>
+<main class="wrap"><slot /></main>
+<footer class="wrap foot">
+  <span>&copy; {new Date().getFullYear()} smArts.studio, with love</span>
+  <span><a href="https://pranka.id.lv/">Pranka Colour</a> &middot; <a href="https://pranka.id.lv/vue/">Pranka VUE</a> &middot; <a href="/contacts/">Contact</a></span>
+</footer>
+<script is:inline>
+const b=document.querySelector('.burger'),n=document.getElementById('nav');
+b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+</script>
+</body>
+</html>

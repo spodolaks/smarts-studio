@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import Grid from '../components/Grid.astro';
+import { groups } from '../data/site.js';
+export function getStaticPaths(){ return groups.map(g => ({ params: { group: g[0] }, props: { g } })); }
+const { g } = Astro.props;
+---
+<Base title={g[1]} description={g[2]}>
+  <h1>{g[1]}</h1>
+  <p style="color:var(--mute);margin-bottom:34px">{g[2]}</p>
+  <Grid active={g[0]} />
+</Base>

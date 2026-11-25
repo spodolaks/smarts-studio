@@ -1,0 +1,2140 @@
+[
+ {
+  "slug": "our-story",
+  "title": "Our Story",
+  "date": "2019-10-14",
+  "thumb": "4962",
+  "group": "",
+  "tag": "Our story",
+  "desc": "<p>Two sights, one vision </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4825",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4826",
+    "w": "1-3"
+   },
+   {
+    "t": "quote",
+    "text": "Two people that share common passion for photography",
+    "author": "",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4827",
+    "w": "2-3"
+   },
+   {
+    "t": "text",
+    "html": "<h4>passion that has been developing for<br>over 16 years combined</h4>",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4828",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4829",
+    "w": "1-1"
+   },
+   {
+    "t": "img",
+    "id": "4832",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4831",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4830",
+    "w": "1-3"
+   },
+   {
+    "t": "quote",
+    "text": "slowly growing from occasional shot of beautiful place to something bigger,\nto expressing ourselves",
+    "author": "",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4837",
+    "w": "2-3"
+   },
+   {
+    "t": "img",
+    "id": "4836",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4835",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4834",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4838",
+    "w": "2-3"
+   },
+   {
+    "t": "text",
+    "html": "<h4>People that share so much of how we see the world that there is no need to speak<br>or discus, we just shoot.</h4>",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4841",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4840",
+    "w": "1-2"
+   },
+   {
+    "t": "img",
+    "id": "4839",
+    "w": "1-2"
+   },
+   {
+    "t": "quote",
+    "text": "Shoot to express our attitude, our dreams and our vision.",
+    "author": "",
+    "w": "1-1"
+   },
+   {
+    "t": "img",
+    "id": "4842",
+    "w": "2-3"
+   },
+   {
+    "t": "img",
+    "id": "4844",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4843",
+    "w": "1-3"
+   },
+   {
+    "t": "text",
+    "html": "",
+    "w": "1-1"
+   },
+   {
+    "t": "text",
+    "html": "<h4>development of photography as a tool for self-expression is prime focus for us</h4>",
+    "w": "1-3"
+   },
+   {
+    "t": "img",
+    "id": "4846",
+    "w": "2-3"
+   },
+   {
+    "t": "img",
+    "id": "4833",
+    "w": "1-2"
+   },
+   {
+    "t": "img",
+    "id": "4845",
+    "w": "1-2"
+   },
+   {
+    "t": "img",
+    "id": "4847",
+    "w": "1-1"
+   },
+   {
+    "t": "quote",
+    "text": "We are smArts.studio\nWe love our work and love each other",
+    "author": "",
+    "w": "1-1"
+   }
+  ],
+  "mode": "grid12"
+ },
+ {
+  "slug": "stories",
+  "title": "Stories",
+  "date": "2019-10-12",
+  "thumb": "4875",
+  "group": "specials",
+  "tag": "Stories",
+  "desc": "<p>These are small photo stories, that tell something important through series of pictures. Please read, swipe and enjoy!</p>",
+  "blocks": [
+   {
+    "t": "set",
+    "ids": [
+     "4873",
+     "4874",
+     "4875",
+     "4876",
+     "4878",
+     "4877"
+    ],
+    "desc": "<h4>Inner warrior</h4><p>About will, power of spirit and core strength</p>",
+    "side": "left"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4852",
+     "4851",
+     "4850",
+     "4849",
+     "4848",
+     "4855",
+     "4854",
+     "4853"
+    ],
+    "desc": "<h4>Teddy Bear</h4><p>Some presents may appear to be a huge disaster in the wrong hands. But fire can really cool things down 😉</p>",
+    "side": "right"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4856",
+     "4857",
+     "4858",
+     "4859",
+     "4860"
+    ],
+    "desc": "<h4>Apocalypse</h4><p>Watching the world has fallen...</p>",
+    "side": "left"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4861",
+     "4862",
+     "4863"
+    ],
+    "desc": "<h4>tilt this world</h4><p>the fucking squirrels stole all of my nuts</p><p>we're playing a little crazy</p><p>thanks to <a href=\"https://www.facebook.com/NOLOFASHION/\">NOLO</a> for this awesome print</p>",
+    "side": "right"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4818",
+     "4820",
+     "4821",
+     "4822",
+     "4823"
+    ],
+    "desc": "<h4>Red Box</h4><p>don't pick up</p>",
+    "side": "left"
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "nature",
+  "title": "Nature",
+  "date": "2019-10-12",
+  "thumb": "4881",
+  "group": "specials",
+  "tag": "Nature",
+  "desc": "<p>It's all about nature in the end, and us as a part of it. About its force, its kindness. About its beauty.</p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4887"
+   },
+   {
+    "t": "img",
+    "id": "4884"
+   },
+   {
+    "t": "quote",
+    "text": "Its all about lines, if you look closer",
+    "author": ""
+   },
+   {
+    "t": "img",
+    "id": "4886"
+   },
+   {
+    "t": "img",
+    "id": "4885"
+   },
+   {
+    "t": "text",
+    "html": "<blockquote>segregation<br>/ˌsɛɡrɪˈɡeɪʃ(ə)n/<br>Learn to pronounce<br>noun<br>noun: segregation; plural noun: segregations<br>1.<br>the action or state of setting someone or something apart from others.<br>\"the segregation of pupils with learning difficulties\"<br>Similar:<br>separation<br>setting apart<br>keeping apart<br>sorting out<br>isolation<br>quarantine<br>insulation<br>exclusion<br>closeting<br>protection<br>shielding<br>partitioning<br>division<br>detachment<br>disconnection<br>dissociation<br>sequestration<br>partition<br>apartheid<br>Opposite:<br>integration<br>the enforced separation of different racial groups in a country, community, or establishment.<br>\"an official policy of racial segregation\"<br>2.<br>GENETICS<br>the separation of pairs of alleles at meiosis and their independent transmission via separate gametes.</blockquote>"
+   },
+   {
+    "t": "img",
+    "id": "4881"
+   },
+   {
+    "t": "img",
+    "id": "4882"
+   },
+   {
+    "t": "img",
+    "id": "4879"
+   },
+   {
+    "t": "img",
+    "id": "4883"
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "enjoy-the-silence",
+  "title": "Enjoy the Silence",
+  "date": "2019-10-09",
+  "thumb": "4707",
+  "group": "series",
+  "tag": "Enjoy the Silence",
+  "desc": "<p>The story of a man, staring at the world's beauty, power and greatness. Enjoying the silence, listening to the nature, without excessive sounds of the cities, people or civilization. Being on the top of the world, holding breath while beholding nature's beauty, going back to where it all started. </p>",
+  "blocks": [
+   {
+    "t": "set",
+    "ids": [
+     "4715",
+     "4714",
+     "4713",
+     "4712",
+     "4711",
+     "4710",
+     "4709",
+     "4708",
+     "4707",
+     "4706",
+     "4705",
+     "4704",
+     "4703",
+     "4702",
+     "4701",
+     "4699",
+     "4698"
+    ],
+    "auto": true
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "slokas-animal-shelter",
+  "title": "Slokas Animal Shelter",
+  "date": "2019-10-09",
+  "thumb": "4723",
+  "group": "collaboration-projects",
+  "tag": "Slokas Animal Shelter",
+  "desc": "<p>Collaboration project to help animals from Slokas Shelter find new home</p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4723"
+   },
+   {
+    "t": "img",
+    "id": "4724"
+   },
+   {
+    "t": "img",
+    "id": "4725"
+   },
+   {
+    "t": "img",
+    "id": "4726"
+   },
+   {
+    "t": "img",
+    "id": "4727"
+   },
+   {
+    "t": "img",
+    "id": "4728"
+   },
+   {
+    "t": "img",
+    "id": "4729"
+   }
+  ],
+  "mode": "rows"
+ },
+ {
+  "slug": "beloved-pics",
+  "title": "Beloved Pics",
+  "date": "2019-10-09",
+  "thumb": "4761",
+  "group": "specials",
+  "tag": "Beloved pics",
+  "desc": "<p>One-hits. Final images. The ones we go through all the hustle for. </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4738"
+   },
+   {
+    "t": "img",
+    "id": "4743"
+   },
+   {
+    "t": "img",
+    "id": "4744"
+   },
+   {
+    "t": "img",
+    "id": "4750"
+   },
+   {
+    "t": "img",
+    "id": "4751"
+   },
+   {
+    "t": "img",
+    "id": "4747"
+   },
+   {
+    "t": "img",
+    "id": "4754"
+   },
+   {
+    "t": "img",
+    "id": "4736"
+   },
+   {
+    "t": "img",
+    "id": "4755"
+   },
+   {
+    "t": "img",
+    "id": "4756"
+   },
+   {
+    "t": "img",
+    "id": "4739"
+   },
+   {
+    "t": "img",
+    "id": "4767"
+   },
+   {
+    "t": "img",
+    "id": "4740"
+   },
+   {
+    "t": "img",
+    "id": "4741"
+   },
+   {
+    "t": "img",
+    "id": "4753"
+   },
+   {
+    "t": "img",
+    "id": "4746"
+   },
+   {
+    "t": "img",
+    "id": "4776"
+   },
+   {
+    "t": "img",
+    "id": "4763"
+   },
+   {
+    "t": "img",
+    "id": "4764"
+   },
+   {
+    "t": "img",
+    "id": "4737"
+   },
+   {
+    "t": "img",
+    "id": "4765"
+   },
+   {
+    "t": "img",
+    "id": "4768"
+   },
+   {
+    "t": "img",
+    "id": "4748"
+   },
+   {
+    "t": "img",
+    "id": "4758"
+   },
+   {
+    "t": "img",
+    "id": "4749"
+   },
+   {
+    "t": "img",
+    "id": "4807"
+   },
+   {
+    "t": "img",
+    "id": "4777"
+   },
+   {
+    "t": "img",
+    "id": "4745"
+   },
+   {
+    "t": "img",
+    "id": "4772"
+   },
+   {
+    "t": "img",
+    "id": "4757"
+   },
+   {
+    "t": "img",
+    "id": "4752"
+   },
+   {
+    "t": "img",
+    "id": "4770"
+   },
+   {
+    "t": "img",
+    "id": "4775"
+   },
+   {
+    "t": "img",
+    "id": "4762"
+   },
+   {
+    "t": "img",
+    "id": "4759"
+   },
+   {
+    "t": "img",
+    "id": "4773"
+   },
+   {
+    "t": "img",
+    "id": "4771"
+   },
+   {
+    "t": "img",
+    "id": "4760"
+   },
+   {
+    "t": "img",
+    "id": "4769"
+   },
+   {
+    "t": "img",
+    "id": "4761"
+   },
+   {
+    "t": "img",
+    "id": "4766"
+   },
+   {
+    "t": "img",
+    "id": "4778"
+   },
+   {
+    "t": "img",
+    "id": "4966"
+   },
+   {
+    "t": "img",
+    "id": "4965"
+   }
+  ],
+  "mode": "captions"
+ },
+ {
+  "slug": "maggie-friends",
+  "title": "Maggie & Friends",
+  "date": "2019-09-26",
+  "thumb": "4625",
+  "group": "collaboration-projects",
+  "tag": "Maggie & Friends",
+  "desc": "<p>Collaboration project with Latvian cover band Maggie &amp; Friends. It was very exciting work together - and the results are on par with the process.  </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4629"
+   },
+   {
+    "t": "quote",
+    "text": "Amazing musicians, which gave us inspiration to make original shots with different concepts. Ideas were floating in the air, we just had to catch them.",
+    "author": ""
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4625",
+     "4624",
+     "4626",
+     "4627"
+    ]
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4616",
+     "4618",
+     "4620",
+     "4621"
+    ]
+   },
+   {
+    "t": "text",
+    "html": "<p>Every of them with his own passion, love and attitude to music. But together a unique band, full of expression and energy.</p>"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4619",
+     "4617",
+     "4622",
+     "4623"
+    ]
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4646",
+     "4644",
+     "4643",
+     "4645"
+    ]
+   },
+   {
+    "t": "text",
+    "html": "<p>Maggie - vocalist, the engine of the whole team. Beautiful and inspiring woman, we've loved to work with.</p>"
+   },
+   {
+    "t": "img",
+    "id": "4647"
+   },
+   {
+    "t": "img",
+    "id": "4648"
+   },
+   {
+    "t": "quote",
+    "text": "Music is my passion\n\nWhen you're on the right track, everything flows naturally and you just have to use it respectively.",
+    "author": "smArts.studio"
+   },
+   {
+    "t": "img",
+    "id": "4635"
+   },
+   {
+    "t": "text",
+    "html": "<p>And of course backstage pics from this long session with Maggie &amp; Friends! They sang, they acted funny, they forgot all the boundaries and it was beautiful! :)</p>"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4636",
+     "4640",
+     "4639",
+     "4637",
+     "4630"
+    ]
+   },
+   {
+    "t": "yt",
+    "id": "C1VdJHl7zw4",
+    "title": "Maggie & Friends"
+   }
+  ],
+  "mode": "rows"
+ },
+ {
+  "slug": "owa",
+  "title": "OWA",
+  "date": "2019-09-25",
+  "thumb": "4610",
+  "group": "collaboration-projects",
+  "tag": "Owa",
+  "desc": "<p>Co-project with Latvian designer brand <a href=\"https://www.facebook.com/OWAfashion/\">OWA Fashion</a>. We've traveled with beautiful OWA works to create concept art photographs based on the prints. Thanks to original <a href=\"https://www.facebook.com/OWAfashion/\">OWA Fashion</a> for inspiring us to create these works! These wonderful dresses visited different parts of the world and took a part in the art project! Natalija Jermolajeva, Alisa Adamsone, stay as talented as you are, spread and develop ) </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4607"
+   },
+   {
+    "t": "img",
+    "id": "4606"
+   },
+   {
+    "t": "img",
+    "id": "4608"
+   },
+   {
+    "t": "img",
+    "id": "4609"
+   },
+   {
+    "t": "img",
+    "id": "4611"
+   },
+   {
+    "t": "img",
+    "id": "4612"
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "iceland-landscape-and-fashion",
+  "title": "Iceland. Landscape and Fashion.",
+  "date": "2019-09-20",
+  "thumb": "4415",
+  "group": "collaboration-projects",
+  "tag": "Baiba Ladiga",
+  "desc": "<p>Iceland -\nlunar fields, extraterrestrial colors, shadows of recent eruptions, silent ice\nand the raging Atlantic. Nature that will not leave anyone indifferent.\nSpontaneous winds and unique experience, impossible in any other place in\nEurope. </p>\n<p>Experience\nIceland through the endless panoramas, large strokes of nature and fashionable\nlooks. <a href=\"https://www.facebook.com/smarts.studio/\">smArts.studio</a> presents our view of\nIceland, rhyming it's landscapes with designer dresses from Baiba Ladiga. The collaboration\nproject uncovers the fascinating nature of this country by incorporating fashion.\nAnd, of course, for this task it was impossible to find clothes more original\nthen <a href=\"https://www.facebook.com/Ladigafashion/\">Baiba Ladiga’s\nconceptual fashion design</a>. </p>\n<p><a href=\"https://www.facebook.com/smarts.studio/\">smArts.studio</a> - two people\nthat share common passion for photography, passion that has been developing for\ncombined more than 14 years, slowly growing from occasional shot of beautiful\nplace to something larger, to expressing ourselves. People that share so much\nof how we see the world that there is no need to speak or discus, we just\nshoot. Shoot to express our attitude, our dreams and our vision.</p>\n<p><a href=\"https://www.facebook.com/Ladigafashion/\">Baiba Ladiga\n– Kobayashi (brand Baiba Ladiga)</a> is a conceptual designer based in Riga, Latvia. She studied at\nArt Academy Of Latvia and graduated in 2004. For five years she worked as\nfashion design lecturer in Shanghai as well did freelance design, styling and\nillustration projects. Three years ago ready to wear brand Baiba Ladiga was\nestablished. Mainly black and white, made of natural materials like wool, linen\nand cotton, inspired by architecture and minimalism. Brand focuses on\nsustainability and zero waste. And at the moment Baiba Ladiga collections are\nsold in EU and Japan and her avant-garde pieces are worn by style icons like\nLily Gatins.&nbsp;</p>",
+  "blocks": [
+   {
+    "t": "set",
+    "ids": [
+     "4421",
+     "4417",
+     "4416",
+     "4413",
+     "4412",
+     "4411",
+     "4408",
+     "4407",
+     "4406",
+     "4404",
+     "4403",
+     "4402",
+     "4401",
+     "4398"
+    ]
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4420",
+     "4419",
+     "4418",
+     "4415",
+     "4414",
+     "4410",
+     "4409",
+     "4405",
+     "4400",
+     "4399"
+    ]
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "woocoon-and-eloon-in-alps",
+  "title": "Woocoon and Eloon in Alps",
+  "date": "2019-09-20",
+  "thumb": "4971",
+  "group": "collaboration-projects",
+  "tag": "Woocoon and Eloon",
+  "desc": "<p>Inspired by nature motives <a href=\"https://www.facebook.com/woocoon.design/\">Wocoon</a> clothes and original <a href=\"https://www.facebook.com/ELOON.EU/\">Eloon</a> jewelry have experienced travel full of love, emotions and mountains with us in Alps. Very special project, that brought together three artists and gave a starting point to our beloved series <a href=\"/portfolio/gaze-of-mountain/\">Gaze of Mountain</a>.</p>",
+  "blocks": [
+   {
+    "t": "head",
+    "text": "Look 1"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4438",
+     "4442",
+     "4449",
+     "4456",
+     "4472",
+     "4480",
+     "4484",
+     "4488",
+     "4499",
+     "4506",
+     "4527",
+     "4496",
+     "4467",
+     "4468",
+     "4523"
+    ]
+   },
+   {
+    "t": "head",
+    "text": "Look 2"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4440",
+     "4444",
+     "4471",
+     "4485",
+     "4497",
+     "4517",
+     "4522",
+     "4450",
+     "4453",
+     "4457",
+     "4476",
+     "4518",
+     "4519"
+    ]
+   },
+   {
+    "t": "head",
+    "text": "Look 3"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4452",
+     "4458",
+     "4459",
+     "4465",
+     "4469",
+     "4478",
+     "4482",
+     "4490",
+     "4492",
+     "4494",
+     "4500",
+     "4502",
+     "4511",
+     "4514",
+     "4516",
+     "4525"
+    ]
+   },
+   {
+    "t": "head",
+    "text": "Look 4"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4445",
+     "4446",
+     "4447",
+     "4463",
+     "4464",
+     "4483",
+     "4495",
+     "4501",
+     "4505",
+     "4510",
+     "4524",
+     "4460",
+     "4474",
+     "4491",
+     "4507"
+    ]
+   },
+   {
+    "t": "head",
+    "text": "Look 5"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4439",
+     "4441",
+     "4443",
+     "4448",
+     "4454",
+     "4455",
+     "4470",
+     "4473",
+     "4475",
+     "4477",
+     "4479",
+     "4481",
+     "4487",
+     "4489",
+     "4498",
+     "4508",
+     "4512",
+     "4513",
+     "4520",
+     "4526"
+    ]
+   },
+   {
+    "t": "head",
+    "text": "Look 6"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4451",
+     "4461",
+     "4462",
+     "4466",
+     "4486",
+     "4493",
+     "4503",
+     "4509",
+     "4515",
+     "4521"
+    ]
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "zile",
+  "title": "ZILE",
+  "date": "2019-09-20",
+  "thumb": "4560",
+  "group": "collaboration-projects",
+  "tag": "Zile",
+  "desc": "<p><a href=\"https://www.facebook.com/ziledesign/\">ZĪLE</a> is a Latvian fashion brand striving for a more sustainable future through the concept of upcycling. </p>",
+  "blocks": [
+   {
+    "t": "set",
+    "ids": [
+     "4571",
+     "4566",
+     "4563",
+     "4568",
+     "4564",
+     "4567",
+     "4565",
+     "4569",
+     "4570"
+    ],
+    "desc": "<p>First collaboration with this designer. Finnish vibes in <a href=\"https://www.facebook.com/ziledesign/\">ZĪLE</a> styles brought to you specially from the Land of a Thousand Lakes.</p>",
+    "side": "left"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4575",
+     "4576",
+     "4577",
+     "4578",
+     "4579"
+    ],
+    "desc": "<p>ZILE in motion</p>",
+    "side": "right"
+   },
+   {
+    "t": "set",
+    "ids": [
+     "4599",
+     "4589",
+     "4588",
+     "4598",
+     "4597",
+     "4587",
+     "4586",
+     "4596",
+     "4595",
+     "4585",
+     "4584",
+     "4594",
+     "4593",
+     "4583",
+     "4582",
+     "4592",
+     "4591",
+     "4581",
+     "4580",
+     "4590"
+    ],
+    "desc": "<p>Conceptional photo shoot with <a href=\"https://www.facebook.com/ziledesign/\">ZĪLE</a> new dress collection</p>",
+    "side": "right"
+   },
+   {
+    "t": "yt",
+    "id": "YPKe3wABvj4",
+    "title": "ZILE in motion"
+   },
+   {
+    "t": "text",
+    "html": "<p>The story of transformation, search, change. A story told by a series of photos, where we felt the relationship through different seasons and different moods with the help of two different images created from the same clothes.</p><p>We did something special together with the beautiful brand <a href=\"https://www.facebook.com/ziledesign/\">ZĪLE</a> - about how the masculine can turn into the feminine, about the relationship of these two portraits.</p><p>Many thanks to the designer for creating this beautiful clothes and for a small miracle when men's jeans turn into a jacket and a shirt into dress. This is truly an amazing feeling of rebirth.</p>"
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "gaze-of-mountain",
+  "title": "Gaze of Mountain",
+  "date": "2019-09-18",
+  "thumb": "4233",
+  "group": "series",
+  "tag": "Gaze of the mountain spirit",
+  "desc": "<p><em> And if you gaze long into an abyss, the abyss also gazes into you ©</em></p>\n<p> Mountains can share mesmerizing views with the one who observes, mountains can display the immense force of ever-changing weather. Mountains can be the most peaceful place one moment and summon all of its demon guards the next. One mountain can remind you of your first love, long forgotten, another can be intimidating like a huge predator. There is something supernatural about mountains. And one day we uncovered that some pictures of the peaks have far more to display, hidden from bypasser, mystical essence, deity that has been present forever. </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4233"
+   },
+   {
+    "t": "img",
+    "id": "4230"
+   },
+   {
+    "t": "img",
+    "id": "4231"
+   },
+   {
+    "t": "img",
+    "id": "4234"
+   },
+   {
+    "t": "img",
+    "id": "4229"
+   },
+   {
+    "t": "img",
+    "id": "4232"
+   },
+   {
+    "t": "img",
+    "id": "4235"
+   },
+   {
+    "t": "img",
+    "id": "4228"
+   }
+  ],
+  "mode": "auto"
+ },
+ {
+  "slug": "coloring-black-and-white",
+  "title": "Coloring black and white",
+  "date": "2019-09-18",
+  "thumb": "4288",
+  "group": "collaboration-projects",
+  "tag": "Angel_A",
+  "desc": "<p>Shades of black, levitating factures and captivating lines of Angela_A helped us to encapsulate bold, mysterious and sensual Pyrenees. Little crazy spark, that ignited between us and Angelina pushed us to take her brand to the French/Spanish border, and create series of photographs that will keep the spirit of those places. </p>\n<p>From free-loving Catalonia to the tough country of Basks, from high mountain passes to french balcony roads - we drove through almost every corner of Pyrenees trying to capture brightest moments of this journey. With every set in this location we had minutes of joy, surprise, unease to remember, but instead of telling you all of that, we tried to express it through the lens of the camera. </p>\n<p>In Pyrenees we've seen a wide variety of colors, nevertheless this part of our work will remain black&amp;white. It is this type of photography that transmits the atmosphere of down falling fog and sliding light, that inspired us the most. </p>\n<p>In counter to balance black&amp;white photography, colorful brushstrokes of nature in fashion photography with clothes by Angel_A pushes the specific image to the front, the image created by this designer, how you feel when you try this image on. </p>\n<p>This is not our first attempt to create new way of sharing our travel. Fashion-landscape photography is the best way for us to show what we see when driving these places by, but also which image we want to pass, founding ourselves there, where something touches the strings of our inspiration. </p>\n<p>Don't be scared to travel, to uncover new in the world, in yourself and in fashion of course! </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4239"
+   },
+   {
+    "t": "img",
+    "id": "4240"
+   },
+   {
+    "t": "img",
+    "id": "4241"
+   },
+   {
+    "t": "img",
+    "id": "4242"
+   },
+   {
+    "t": "img",
+    "id": "4243"
+   },
+   {
+    "t": "img",
+    "id": "4244"
+   },
+   {
+    "t": "img",
+    "id": "4245"
+   },
+   {
+    "t": "img",
+    "id": "4246"
+   },
+   {
+    "t": "img",
+    "id": "4247"
+   },
+   {
+    "t": "img",
+    "id": "4248"
+   },
+   {
+    "t": "img",
+    "id": "4249"
+   },
+   {
+    "t": "img",
+    "id": "4250"
+   },
+   {
+    "t": "img",
+    "id": "4251"
+   },
+   {
+    "t": "img",
+    "id": "4252"
+   },
+   {
+    "t": "img",
+    "id": "4253"
+   },
+   {
+    "t": "img",
+    "id": "4254"
+   },
+   {
+    "t": "img",
+    "id": "4255"
+   },
+   {
+    "t": "img",
+    "id": "4256"
+   },
+   {
+    "t": "img",
+    "id": "4257"
+   },
+   {
+    "t": "img",
+    "id": "4258"
+   },
+   {
+    "t": "img",
+    "id": "4259"
+   },
+   {
+    "t": "img",
+    "id": "4260"
+   },
+   {
+    "t": "img",
+    "id": "4261"
+   },
+   {
+    "t": "img",
+    "id": "4262"
+   },
+   {
+    "t": "img",
+    "id": "4263"
+   },
+   {
+    "t": "img",
+    "id": "4264"
+   }
+  ],
+  "mode": "pages"
+ },
+ {
+  "slug": "events",
+  "title": "Events",
+  "date": "2019-08-27",
+  "thumb": "4969",
+  "group": "specials",
+  "tag": "Events",
+  "desc": "<p>Here you can see all the events we’ve shot through our eyes, not your typical nights club styled shots these are. We want to capture the emotions that are streaming from the artist down to the audience. These events we use to relax, listening to the music we like, and transfer some of the mood via pictures to the future, sharing the mood with our followers.</p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "5066"
+   },
+   {
+    "t": "img",
+    "id": "5065"
+   },
+   {
+    "t": "img",
+    "id": "5064"
+   },
+   {
+    "t": "img",
+    "id": "5063"
+   },
+   {
+    "t": "img",
+    "id": "5062"
+   },
+   {
+    "t": "img",
+    "id": "5058"
+   },
+   {
+    "t": "img",
+    "id": "5059"
+   },
+   {
+    "t": "img",
+    "id": "5061"
+   },
+   {
+    "t": "img",
+    "id": "5060"
+   },
+   {
+    "t": "img",
+    "id": "5057"
+   },
+   {
+    "t": "img",
+    "id": "5056"
+   },
+   {
+    "t": "img",
+    "id": "5054"
+   },
+   {
+    "t": "img",
+    "id": "5055"
+   },
+   {
+    "t": "img",
+    "id": "4007"
+   },
+   {
+    "t": "img",
+    "id": "4008"
+   },
+   {
+    "t": "img",
+    "id": "4200"
+   },
+   {
+    "t": "img",
+    "id": "4199"
+   },
+   {
+    "t": "img",
+    "id": "4197"
+   },
+   {
+    "t": "img",
+    "id": "4198"
+   },
+   {
+    "t": "img",
+    "id": "4196"
+   },
+   {
+    "t": "img",
+    "id": "4195"
+   },
+   {
+    "t": "img",
+    "id": "4194"
+   },
+   {
+    "t": "img",
+    "id": "4193"
+   },
+   {
+    "t": "img",
+    "id": "4192"
+   },
+   {
+    "t": "img",
+    "id": "4191"
+   },
+   {
+    "t": "img",
+    "id": "4190"
+   },
+   {
+    "t": "img",
+    "id": "4189"
+   },
+   {
+    "t": "img",
+    "id": "4188"
+   },
+   {
+    "t": "img",
+    "id": "4187"
+   },
+   {
+    "t": "img",
+    "id": "4186"
+   },
+   {
+    "t": "img",
+    "id": "4185"
+   },
+   {
+    "t": "img",
+    "id": "4184"
+   },
+   {
+    "t": "img",
+    "id": "4183"
+   },
+   {
+    "t": "img",
+    "id": "4182"
+   },
+   {
+    "t": "img",
+    "id": "4181"
+   },
+   {
+    "t": "img",
+    "id": "4180"
+   },
+   {
+    "t": "img",
+    "id": "4179"
+   },
+   {
+    "t": "img",
+    "id": "4178"
+   },
+   {
+    "t": "img",
+    "id": "4174"
+   },
+   {
+    "t": "img",
+    "id": "4177"
+   },
+   {
+    "t": "img",
+    "id": "4176"
+   },
+   {
+    "t": "img",
+    "id": "4175"
+   },
+   {
+    "t": "img",
+    "id": "4173"
+   },
+   {
+    "t": "img",
+    "id": "4172"
+   },
+   {
+    "t": "img",
+    "id": "4169"
+   },
+   {
+    "t": "img",
+    "id": "4171"
+   },
+   {
+    "t": "img",
+    "id": "4170"
+   },
+   {
+    "t": "img",
+    "id": "4168"
+   },
+   {
+    "t": "img",
+    "id": "4167"
+   },
+   {
+    "t": "img",
+    "id": "4166"
+   },
+   {
+    "t": "img",
+    "id": "4165"
+   },
+   {
+    "t": "img",
+    "id": "4164"
+   },
+   {
+    "t": "img",
+    "id": "4163"
+   },
+   {
+    "t": "img",
+    "id": "4162"
+   },
+   {
+    "t": "img",
+    "id": "4161"
+   },
+   {
+    "t": "img",
+    "id": "4160"
+   },
+   {
+    "t": "img",
+    "id": "4159"
+   },
+   {
+    "t": "img",
+    "id": "4158"
+   },
+   {
+    "t": "img",
+    "id": "4157"
+   },
+   {
+    "t": "img",
+    "id": "4156"
+   },
+   {
+    "t": "img",
+    "id": "4155"
+   },
+   {
+    "t": "img",
+    "id": "4154"
+   },
+   {
+    "t": "img",
+    "id": "4153"
+   },
+   {
+    "t": "img",
+    "id": "4152"
+   },
+   {
+    "t": "img",
+    "id": "4151"
+   },
+   {
+    "t": "img",
+    "id": "4150"
+   },
+   {
+    "t": "img",
+    "id": "4149"
+   },
+   {
+    "t": "img",
+    "id": "4148"
+   },
+   {
+    "t": "img",
+    "id": "4147"
+   },
+   {
+    "t": "img",
+    "id": "4146"
+   },
+   {
+    "t": "img",
+    "id": "4145"
+   },
+   {
+    "t": "img",
+    "id": "4144"
+   },
+   {
+    "t": "img",
+    "id": "4143"
+   },
+   {
+    "t": "img",
+    "id": "4142"
+   },
+   {
+    "t": "img",
+    "id": "4141"
+   },
+   {
+    "t": "img",
+    "id": "4140"
+   },
+   {
+    "t": "img",
+    "id": "4139"
+   },
+   {
+    "t": "img",
+    "id": "4138"
+   },
+   {
+    "t": "img",
+    "id": "4137"
+   },
+   {
+    "t": "img",
+    "id": "4136"
+   },
+   {
+    "t": "img",
+    "id": "4135"
+   },
+   {
+    "t": "img",
+    "id": "4134"
+   },
+   {
+    "t": "img",
+    "id": "4133"
+   },
+   {
+    "t": "img",
+    "id": "4132"
+   },
+   {
+    "t": "img",
+    "id": "4131"
+   },
+   {
+    "t": "img",
+    "id": "4130"
+   },
+   {
+    "t": "img",
+    "id": "4129"
+   },
+   {
+    "t": "img",
+    "id": "4127"
+   },
+   {
+    "t": "img",
+    "id": "4128"
+   },
+   {
+    "t": "img",
+    "id": "4126"
+   },
+   {
+    "t": "img",
+    "id": "4125"
+   },
+   {
+    "t": "img",
+    "id": "4124"
+   },
+   {
+    "t": "img",
+    "id": "4123"
+   },
+   {
+    "t": "img",
+    "id": "4122"
+   },
+   {
+    "t": "img",
+    "id": "4121"
+   },
+   {
+    "t": "img",
+    "id": "4120"
+   },
+   {
+    "t": "img",
+    "id": "4119"
+   },
+   {
+    "t": "img",
+    "id": "4118"
+   },
+   {
+    "t": "img",
+    "id": "4117"
+   },
+   {
+    "t": "img",
+    "id": "4116"
+   },
+   {
+    "t": "img",
+    "id": "4115"
+   },
+   {
+    "t": "img",
+    "id": "4114"
+   },
+   {
+    "t": "img",
+    "id": "4113"
+   },
+   {
+    "t": "img",
+    "id": "4112"
+   },
+   {
+    "t": "img",
+    "id": "4111"
+   },
+   {
+    "t": "img",
+    "id": "4110"
+   },
+   {
+    "t": "img",
+    "id": "4109"
+   },
+   {
+    "t": "img",
+    "id": "4108"
+   },
+   {
+    "t": "img",
+    "id": "4107"
+   },
+   {
+    "t": "img",
+    "id": "4106"
+   },
+   {
+    "t": "img",
+    "id": "4105"
+   },
+   {
+    "t": "img",
+    "id": "4104"
+   },
+   {
+    "t": "img",
+    "id": "4103"
+   },
+   {
+    "t": "img",
+    "id": "4102"
+   },
+   {
+    "t": "img",
+    "id": "4101"
+   },
+   {
+    "t": "img",
+    "id": "4100"
+   },
+   {
+    "t": "img",
+    "id": "4099"
+   },
+   {
+    "t": "img",
+    "id": "4098"
+   },
+   {
+    "t": "img",
+    "id": "4096"
+   },
+   {
+    "t": "img",
+    "id": "4097"
+   },
+   {
+    "t": "img",
+    "id": "4095"
+   },
+   {
+    "t": "img",
+    "id": "4094"
+   },
+   {
+    "t": "img",
+    "id": "4093"
+   },
+   {
+    "t": "img",
+    "id": "4092"
+   },
+   {
+    "t": "img",
+    "id": "4091"
+   },
+   {
+    "t": "img",
+    "id": "4090"
+   },
+   {
+    "t": "img",
+    "id": "4089"
+   },
+   {
+    "t": "img",
+    "id": "4088"
+   },
+   {
+    "t": "img",
+    "id": "4087"
+   },
+   {
+    "t": "img",
+    "id": "4086"
+   },
+   {
+    "t": "img",
+    "id": "4085"
+   },
+   {
+    "t": "img",
+    "id": "4084"
+   },
+   {
+    "t": "img",
+    "id": "4083"
+   },
+   {
+    "t": "img",
+    "id": "4082"
+   },
+   {
+    "t": "img",
+    "id": "4081"
+   },
+   {
+    "t": "img",
+    "id": "4080"
+   },
+   {
+    "t": "img",
+    "id": "4079"
+   },
+   {
+    "t": "img",
+    "id": "4078"
+   },
+   {
+    "t": "img",
+    "id": "4077"
+   },
+   {
+    "t": "img",
+    "id": "4076"
+   },
+   {
+    "t": "img",
+    "id": "4075"
+   },
+   {
+    "t": "img",
+    "id": "4074"
+   },
+   {
+    "t": "img",
+    "id": "4073"
+   },
+   {
+    "t": "img",
+    "id": "4072"
+   },
+   {
+    "t": "img",
+    "id": "4071"
+   },
+   {
+    "t": "img",
+    "id": "4070"
+   },
+   {
+    "t": "img",
+    "id": "4069"
+   },
+   {
+    "t": "img",
+    "id": "4068"
+   },
+   {
+    "t": "img",
+    "id": "4067"
+   },
+   {
+    "t": "img",
+    "id": "4066"
+   },
+   {
+    "t": "img",
+    "id": "4065"
+   },
+   {
+    "t": "img",
+    "id": "4064"
+   },
+   {
+    "t": "img",
+    "id": "4063"
+   },
+   {
+    "t": "img",
+    "id": "4062"
+   },
+   {
+    "t": "img",
+    "id": "4061"
+   },
+   {
+    "t": "img",
+    "id": "4060"
+   },
+   {
+    "t": "img",
+    "id": "4059"
+   },
+   {
+    "t": "img",
+    "id": "4058"
+   },
+   {
+    "t": "img",
+    "id": "4057"
+   },
+   {
+    "t": "img",
+    "id": "4056"
+   },
+   {
+    "t": "img",
+    "id": "4055"
+   },
+   {
+    "t": "img",
+    "id": "4054"
+   },
+   {
+    "t": "img",
+    "id": "4053"
+   },
+   {
+    "t": "img",
+    "id": "4052"
+   },
+   {
+    "t": "img",
+    "id": "4051"
+   },
+   {
+    "t": "img",
+    "id": "4050"
+   },
+   {
+    "t": "img",
+    "id": "4049"
+   },
+   {
+    "t": "img",
+    "id": "4046"
+   },
+   {
+    "t": "img",
+    "id": "4045"
+   },
+   {
+    "t": "img",
+    "id": "4044"
+   },
+   {
+    "t": "img",
+    "id": "4043"
+   },
+   {
+    "t": "img",
+    "id": "4042"
+   },
+   {
+    "t": "img",
+    "id": "4041"
+   },
+   {
+    "t": "img",
+    "id": "4040"
+   },
+   {
+    "t": "img",
+    "id": "4039"
+   },
+   {
+    "t": "img",
+    "id": "4038"
+   },
+   {
+    "t": "img",
+    "id": "4037"
+   },
+   {
+    "t": "img",
+    "id": "4036"
+   },
+   {
+    "t": "img",
+    "id": "4035"
+   },
+   {
+    "t": "img",
+    "id": "4034"
+   },
+   {
+    "t": "img",
+    "id": "4033"
+   },
+   {
+    "t": "img",
+    "id": "4032"
+   },
+   {
+    "t": "img",
+    "id": "4031"
+   },
+   {
+    "t": "img",
+    "id": "4030"
+   },
+   {
+    "t": "img",
+    "id": "4029"
+   },
+   {
+    "t": "img",
+    "id": "4028"
+   },
+   {
+    "t": "img",
+    "id": "4027"
+   },
+   {
+    "t": "img",
+    "id": "4026"
+   },
+   {
+    "t": "img",
+    "id": "4025"
+   },
+   {
+    "t": "img",
+    "id": "4024"
+   },
+   {
+    "t": "img",
+    "id": "4023"
+   },
+   {
+    "t": "img",
+    "id": "4022"
+   },
+   {
+    "t": "img",
+    "id": "4021"
+   },
+   {
+    "t": "img",
+    "id": "4020"
+   },
+   {
+    "t": "img",
+    "id": "4018"
+   },
+   {
+    "t": "img",
+    "id": "4019"
+   },
+   {
+    "t": "img",
+    "id": "4017"
+   },
+   {
+    "t": "img",
+    "id": "4016"
+   },
+   {
+    "t": "img",
+    "id": "4015"
+   },
+   {
+    "t": "img",
+    "id": "4014"
+   },
+   {
+    "t": "img",
+    "id": "4013"
+   },
+   {
+    "t": "img",
+    "id": "4012"
+   },
+   {
+    "t": "img",
+    "id": "4011"
+   },
+   {
+    "t": "img",
+    "id": "4010"
+   },
+   {
+    "t": "img",
+    "id": "4009"
+   },
+   {
+    "t": "img",
+    "id": "4217"
+   },
+   {
+    "t": "img",
+    "id": "4218"
+   },
+   {
+    "t": "img",
+    "id": "4219"
+   },
+   {
+    "t": "img",
+    "id": "4220"
+   },
+   {
+    "t": "img",
+    "id": "4221"
+   },
+   {
+    "t": "img",
+    "id": "4222"
+   },
+   {
+    "t": "img",
+    "id": "4223"
+   },
+   {
+    "t": "img",
+    "id": "4224"
+   }
+  ],
+  "mode": "rows"
+ },
+ {
+  "slug": "diversity",
+  "title": "Diversity",
+  "date": "2019-08-21",
+  "thumb": "230",
+  "group": "series",
+  "tag": "Diversity",
+  "desc": "<p>Photo series that are going to help us expose our feelings about diversity of life. Looking around it may seem that everything and everyone are grey and dull, and even worse - similar. As a matter of fact things significantly brighter, there is an extreme variety of sides in everyone of us. With “Diversity” we uncover just two sides of each participant, however with hundred participants planned we intend to show a bigger picture. </p>\n<p>Nowadays, when we stuck between millions of opportunities and with us humbly staring at them, often unable to make a step, it is important to understand what it is really, that drives other people, what is meaningful to them, what are they crazy about, how it leads them through life. Diversity is not about opposites, it's about variety of passions. </p>\n<p>We are calling out everyone to look inside themselves, and try to understand what is kicking your motor. And be brave about it, present it to others! </p>\n<p>Be open, be bold. <br>Be Diverse. </p>",
+  "blocks": [
+   {
+    "t": "set",
+    "ids": [
+     "232",
+     "233",
+     "231",
+     "230",
+     "285",
+     "235",
+     "234",
+     "293",
+     "298",
+     "303",
+     "322",
+     "318",
+     "313",
+     "307",
+     "325",
+     "329",
+     "376",
+     "382",
+     "386",
+     "392",
+     "458",
+     "502",
+     "501",
+     "495",
+     "470",
+     "464",
+     "506",
+     "505",
+     "504",
+     "503",
+     "682",
+     "683",
+     "684",
+     "935",
+     "942",
+     "941",
+     "952",
+     "1036",
+     "1037",
+     "1038",
+     "1041",
+     "1040",
+     "1039",
+     "1227",
+     "1226",
+     "1236",
+     "1237",
+     "1238",
+     "1239",
+     "1229",
+     "1228",
+     "1235",
+     "1234",
+     "1233",
+     "1232",
+     "1231",
+     "1230",
+     "1240"
+    ]
+   },
+   {
+    "t": "img",
+    "id": "1513"
+   }
+  ],
+  "mode": "rows"
+ },
+ {
+  "slug": "city-other",
+  "title": "City. Other.",
+  "date": "2019-08-21",
+  "thumb": "4970",
+  "group": "series",
+  "tag": "City. Other.",
+  "desc": "<p> Black, white, cold, warm,<br>Soft, hard, textured, faceless, <br>Loud, quiet, empty, impossible to pass, <br>Fall, walk, look, around ... </p>\n<p>Light - is cutting plane, <br>Lines - at facades intersections. <br>Black holes, white peaks. <br>City. Other. </p>",
+  "blocks": [
+   {
+    "t": "img",
+    "id": "4693"
+   },
+   {
+    "t": "img",
+    "id": "4692"
+   },
+   {
+    "t": "img",
+    "id": "4691"
+   },
+   {
+    "t": "img",
+    "id": "4690"
+   },
+   {
+    "t": "img",
+    "id": "4689"
+   },
+   {
+    "t": "img",
+    "id": "4688"
+   },
+   {
+    "t": "img",
+    "id": "4687"
+   },
+   {
+    "t": "img",
+    "id": "4686"
+   },
+   {
+    "t": "img",
+    "id": "4682"
+   },
+   {
+    "t": "img",
+    "id": "4685"
+   },
+   {
+    "t": "img",
+    "id": "4684"
+   },
+   {
+    "t": "img",
+    "id": "4683"
+   }
+  ],
+  "mode": "rows"
+ }
+]

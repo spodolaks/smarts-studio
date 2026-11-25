@@ -1,0 +1,20 @@
+---
+import { projects, groups, groupName, img } from '../data/site.js';
+const { active = '' } = Astro.props;
+---
+<div class="filters" id="filters">
+  <a href="/" data-f="" class={active==='' ? 'on' : ''}>All</a>
+  {groups.map(g => <a href={`/${g[0]}/`} data-f={g[0]} class={active===g[0] ? 'on' : ''}>{g[1]}</a>)}
+</div>
+<div class="grid" id="grid">
+  {projects.map((p, k) => { const m = img(p.thumb); return (
+    <a class="card" href={`/portfolio/${p.slug}/`} data-g={p.group} hidden={active && p.group!==active ? true : undefined}>
+      <img src={`/img/t/${p.thumb}.jpg`} width={m.w} height={m.h} alt={p.title} loading={k<6 ? 'eager' : 'lazy'}>
+      <span class="cap"><b>{p.title}</b><small>{[groupName[p.group], p.tag].filter(Boolean).join(', ')}</small></span>
+    </a>); })}
+</div>
+<script is:inline>
+(()=>{const f=document.getElementById('filters'),cards=[...document.querySelectorAll('#grid .card')];
+f.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();const g=a.dataset.f;
+f.querySelectorAll('a').forEach(x=>x.classList.toggle('on',x===a));cards.forEach(c=>c.hidden=!!g&&c.dataset.g!==g);history.replaceState(null,'',a.getAttribute('href'))});})();
+</script>
